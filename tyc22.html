@@ -20,28 +20,10 @@
 	overflow-x: hidden;
 	}
 </style>
-<script type="">
-
-
-function getParameterByName(name) {
-	name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
-	var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
-	results = regex.exec(location.search);
-	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-
-var getURL = getParameterByName('get');
-var getKEY  = getParameterByName('key');
-var getKEY2  = getParameterByName('key2');
-
-</script>
 <iframe id="iframe" referrerpolicy="no-referrer" allow="encrypted-media; autoplay"
-	style="height:100%; width:100%; position:absolute" frameborder allowfullscreen></iframe>
-<script type="">
-var link = "https://futbollatin.org/repr/p/?e=L2xpc3RhL2QvP2NoPXR5Y3Nwb3J0czJhcg==";
-
-setTimeout(() => {document.getElementById('iframe').src = link;}, 80);
-</script>
+	style="height:100%; width:100%; position:absolute" frameborder src="https://futbollatin.org/repr/p/?e=L2xpc3RhL2QvP2NoPXR5Y3Nwb3J0czJhcg==" allowfullscreen>
+	
+</iframe>
 
 </body>
 
